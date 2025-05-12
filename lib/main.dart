@@ -1,10 +1,7 @@
+import 'package:dms_clone/apply/apply_page.dart';
+import 'package:dms_clone/home.dart';
+import 'package:dms_clone/my/my_page.dart';
 import 'package:flutter/material.dart';
-
-import 'dms_part_1.dart';
-import 'dms_part_2.dart';
-import 'final.dart';
-import 'dms_part_3.dart';
-import 'dms_part_4.dart';
 
 void main() {
   runApp(const MyApp());
@@ -37,7 +34,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       debugShowCheckedModeBanner: false,
-      home: const MyPage3(),
+      home: const Home(),
     );
   }
 }
