@@ -1,6 +1,6 @@
 import 'package:dms_clone/apply/apply_page.dart';
+import 'package:dms_clone/meal/meal_page.dart';
 import 'package:dms_clone/my/my_page.dart';
-import 'package:dms_clone/spin/First_Page.dart';
 import 'package:flutter/material.dart';
 class Home extends StatefulWidget {
   const Home({super. key});
@@ -12,7 +12,7 @@ class _HomeState extends State<Home> {
 
   int _selectedIndex=0;
   List<Widget> pages = <Widget>[
-    FirstPage(),
+    MealPage(),
     ApplyPage(),
     MyPage(),
   ];
@@ -31,7 +31,7 @@ class _HomeState extends State<Home> {
       ),
       body: pages[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
-        selectedItemColor: Colors.blue,
+        selectedItemColor: Colors.black,
         unselectedItemColor: Colors.black,
         items: [
           const BottomNavigationBarItem(icon: Icon(Icons.home_outlined),label:'홈'),

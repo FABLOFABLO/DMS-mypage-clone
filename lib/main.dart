@@ -1,5 +1,6 @@
 import 'package:dms_clone/apply/apply_page.dart';
 import 'package:dms_clone/home.dart';
+import 'package:dms_clone/meal/meal_page.dart';
 import 'package:dms_clone/my/my_page.dart';
 import 'package:flutter/material.dart';
 
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       debugShowCheckedModeBanner: false,
-      home: const Home(),
+      home:  Home(),
     );
   }
 }

@@ -1,4 +1,3 @@
-import 'package:dms_clone/my/widget/bottom.dart';
 import 'package:dms_clone/my/widget/information.dart';
 import 'package:dms_clone/my/widget/logout.dart';
 import 'package:dms_clone/my/widget/notification.dart';
